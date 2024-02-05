@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import FooterComp from "@/components/Footer";
 import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,11 +15,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
+      <head>
+        <Script id="crisp">
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `
               window.$crisp=[];
               window.CRISP_WEBSITE_ID="eefc1515-f9bf-4905-82e1-ea949b7d6799";
               (function(){
@@ -28,9 +30,10 @@ export default function RootLayout({ children }) {
                 d.getElementsByTagName("head")[0].appendChild(s);
               })();
             `,
-          }}
-        />
-      </Head>
+            }}
+          />
+        </Script>
+      </head>
       <body className={inter.className}>
         <main className="max-w-7xl mx-auto">
           <Navbar />
