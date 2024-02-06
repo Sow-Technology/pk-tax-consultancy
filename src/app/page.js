@@ -9,7 +9,6 @@ const page = () => {
   return (
     <div>
       <Script src="/crisp.js" />
-
       <Hero />
       <About />
       <Services />
