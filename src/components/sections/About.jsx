@@ -5,16 +5,16 @@ const font = Anton({ subsets: ["latin"], weight: "400" });
 const About = () => {
   return (
     <div
-      className="flex min-h-[500px] my-20 flex-col-reverse items-center lg:flex-row gap-5 lg:gap-0 max-w-[100vw] overflow-clip"
+      className="flex min-h-[500px] my-20 flex-col-reverse items-center lg:flex-row gap-5 lg:gap-0 max-w-[100vw] overflow-clip max-h-full"
       id="about"
     >
-      <div className="min-w-[300px]">
+      <div className="min-w-[350px] object-cover relative h-full bg-black">
         <Image
           src="/hero.webp"
           alt=""
-          width={400}
-          height={800}
-          className="h-full"
+          width={800}
+          height={1200}
+          className="h-full min-h-[640px] object-cover"
         />
       </div>
       <div className="bg-[url(/about.webp)] text-white flex items-center justify-between flex-col py-10 px-20 bg-cover bg-center relative">
@@ -23,19 +23,33 @@ const About = () => {
         >
           ABOUT OUR CONSULTANCY
         </h2>
-        <p className="z-10 relative">
-          Our tax consultancy firm specializes in providing comprehensive and
-          personalized tax solutions to individuals and businesses. With a team
-          of experienced tax professionals, we offer strategic advice to
-          optimize tax efficiency and compliance. We stay updated on the latest
-          tax laws and regulations to ensure our clients receive accurate and
-          timely guidance. Whether it&#39;s tax planning, preparation, or
-          resolving tax disputes, we tailor our services to meet the unique
-          needs of each client. Our goal is to minimize tax liabilities while
-          maximizing financial opportunities for our clients. Trust us to
-          navigate the complexities of taxation and help you achieve your
-          financial goals.
-        </p>
+        <div className="relative z-10">
+          <p className="z-10  mt-5">
+            PK TAX CONSULTANCY is a full-service firm of corporate strategists,
+            auditors, tax advisory experts and advocates. It renders
+            comprehensive professional services in the areas of Auditing, Tax
+            Laws, Company Laws, Consultancy Services & other allied services.
+          </p>
+          <p className="mt-5">
+            The firm is established by Mr. V PRADEEP KUMAR. He constantly
+            endeavor to craft a premier focused professional practice providing
+            high quality services and integrating value added knowledge for its
+            clients and society as a whole.
+          </p>
+          <p className="mt-5">
+            PK TAX CONSULTANCY has qualified and experienced members including
+            Chartered Accountants, Company Secretaries, Cost Accountants,
+            Consultants and Advocates.
+          </p>
+          <p className="mt-5">
+            Team PK TAX CONSULTANCY, has adequate infrastructure, updated
+            technologies, expertise and experience, and unending enthusiasm to
+            offer solutions in time. The firm has a good network among business
+            bodies, clients and Government department. The professional
+            interactions and client specific approach of the firm, ensures
+            smooth interface with all stake holders.
+          </p>
+        </div>
         <div className="absolute h-full w-full bg-[linear-gradient(90deg,rgba(13,5,136,1)0%,rgba(12,172,204,1)100%)]  inset-0 opacity-80 z-0" />
       </div>
     </div>

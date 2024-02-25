@@ -42,9 +42,11 @@ const Navbar = () => {
 
   return (
     <div className="flex flex-row items-center justify-between my-5 px-5">
-      <div>
-        <Image src="/logo.webp" alt="" width={100} height={100} />
-      </div>
+      <Link href="/">
+        <div>
+          <Image src="/logo.webp" alt="" width={100} height={100} />
+        </div>
+      </Link>
       <nav className="flex flex-col items-center gap-5 mt-3">
         {/* Mobile Menu Icon */}
         <div
