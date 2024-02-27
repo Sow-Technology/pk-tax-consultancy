@@ -6,14 +6,14 @@ import {
   BsFacebook,
   BsGithub,
   BsInstagram,
-  BsTwitter,
+  BsTwitterX,
   BsWhatsapp,
 } from "react-icons/bs";
 
 const FooterComp = () => {
   return (
     <Footer container id="contact">
-      <div className="w-full">
+      <div className="w-full my-16">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
@@ -57,7 +57,10 @@ const FooterComp = () => {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="PK TAX CONSULTANCY™" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
+            <Footer.Icon
+              href="https://x.com/PK_Tax_Services"
+              icon={BsTwitterX}
+            />
             <Footer.Icon
               href="https://instagram.com/pk_tax_consultancy/"
               icon={BsInstagram}
