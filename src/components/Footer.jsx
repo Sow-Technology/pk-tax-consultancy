@@ -31,6 +31,9 @@ const FooterComp = () => {
                 <Footer.Link href="tel:+917904745652">
                   +91 79047 45652
                 </Footer.Link>
+                <Footer.Link href="tel:+917092759515">
+                  +91 70927 59515
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -59,7 +62,10 @@ const FooterComp = () => {
               href="https://instagram.com/pk_tax_consultancy/"
               icon={BsInstagram}
             />
-            <Footer.Icon href="https://wa.me/+917904745652" icon={BsWhatsapp} />
+            <Footer.Icon
+              href="https://wa.me/message/XFPYDNZZISVBM1"
+              icon={BsWhatsapp}
+            />
             <Footer.Icon href="#" icon={BsGithub} />
             <Footer.Icon href="#" icon={BsDribbble} />
           </div>

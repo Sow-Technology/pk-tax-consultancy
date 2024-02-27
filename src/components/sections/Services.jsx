@@ -30,6 +30,18 @@ const ServiceItems = [
     url: "/income-tax",
     desc: "nunc sed velit dignissim sodales ut eu sem integer vitae",
   },
+  {
+    imgUrl: "/s5.webp",
+    title: "APEDA Registration",
+    url: "/registration/#apeda",
+    desc: "nunc sed velit dignissim sodales ut eu sem integer vitae",
+  },
+  {
+    imgUrl: "/s6.jpeg",
+    title: "PF Registration",
+    url: "/registration/#pf",
+    desc: "nunc sed velit dignissim sodales ut eu sem integer vitae",
+  },
 ];
 const Services = () => {
   return (
@@ -44,7 +56,7 @@ const Services = () => {
         {ServiceItems.map((item) => (
           <Link href={item.url} key={item.title}>
             <div
-              className="min-h-[600px] relative min-w-[300px] w-[400px] bg-cover bg-center mx-auto rounded-lg shadow-lg"
+              className="min-h-[500px] relative min-w-[270px] w-[320px] bg-cover bg-center mx-auto rounded-lg shadow-lg"
               key={item.title}
               style={{ backgroundImage: `url(${item.imgUrl})` }}
             >

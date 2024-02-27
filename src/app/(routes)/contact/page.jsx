@@ -93,6 +93,9 @@ export default function Page() {
         {...register("Enquiry", { required: true })}
         className="p-2 mb-4 border rounded-md"
       >
+        <option disabled className="text-center font-bold">
+          Registration
+        </option>
         <option value="Udyam Registration (MSME)">
           Udyam Registration (MSME)
         </option>
@@ -106,6 +109,9 @@ export default function Page() {
         </option>
         <option value=" Company Registration"> Company Registration</option>
         <option value=" Labour License"> Labour License</option>
+        <option disabled className="text-center font-bold">
+          Compliance
+        </option>
         <option value="  GST Return Filing"> GST Return Filing</option>
         <option value=" EPF & ESI Return Filing">
           EPF & ESI Return Filing
@@ -113,19 +119,27 @@ export default function Page() {
         <option value=" Income Tax Filing"> Income Tax Filing</option>
         <option value=" TDS Return Filing"> TDS Return Filing</option>
         <option value=" PF Withdrawal"> PF Withdrawal</option>
+        <option disabled className="text-center font-bold">
+          Insurance
+        </option>
+        <option value=" Life Insurance - LIC Book Keeping">
+          Life Insurance - LIC Book Keeping
+        </option>
+        <option disabled className="text-center font-bold">
+          Legal Services
+        </option>
+        <option value="ARBITRATION WORK">ARBITRATION WORK</option>
+        <option value="LABOUR DISPUTES">LABOUR DISPUTES</option>
+        <option value="FAMILY CONCILIATION">FAMILY CONCILIATION</option>
+        <option value=" Life Insurance - LIC Book Keeping">Others </option>
         <option value="  PAN"> PAN</option>
         <option value="  TAN"> TAN</option>
         <option value=" Digital Signature – emudhra partner">
           Digital Signature – emudhra partner
         </option>
-        <option value=" Life Insurance - LIC Book Keeping">
-          Life Insurance - LIC Book Keeping
-        </option>
+
         <option value="REGISTRATION">REGISTRATION</option>
         <option value="COURT CASES">COURT CASES</option>
-        <option value="ARBITRATION WORK">ARBITRATION WORK</option>
-        <option value="LABOUR DISPUTES">LABOUR DISPUTES</option>
-        <option value="FAMILY CONCILIATION">FAMILY CONCILIATION</option>
       </select>
 
       <label className="mb-2 text-lg font-bold" htmlFor="Message">
