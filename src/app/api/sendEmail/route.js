@@ -2,9 +2,9 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 console.log(process.env.FROM_EMAIL_PASSWORD);
 const transporter = nodemailer.createTransport({
-  // host: process.env.SMTP_HOST,
-  // port: parseInt(process.env.SMTP_PORT),
-  service: "gmail",
+  host: process.env.SMTP_HOST,
+  port: parseInt(process.env.SMTP_PORT),
+  // service: "gmail",
   secure: true,
   auth: {
     user: process.env.FROM_EMAIL,

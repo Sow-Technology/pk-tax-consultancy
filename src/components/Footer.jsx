@@ -1,6 +1,7 @@
 "use client";
 
 import { Footer } from "flowbite-react";
+import Link from "next/link";
 import {
   BsDribbble,
   BsFacebook,
@@ -13,7 +14,7 @@ import {
 const FooterComp = () => {
   return (
     <Footer container id="contact">
-      <div className="w-full my-16">
+      <div className="w-full my-4">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
@@ -69,9 +70,13 @@ const FooterComp = () => {
               href="https://wa.me/message/XFPYDNZZISVBM1"
               icon={BsWhatsapp}
             />
-            <Footer.Icon href="#" icon={BsGithub} />
-            <Footer.Icon href="#" icon={BsDribbble} />
           </div>
+        </div>
+        <div className="w-full bg-blue-400/60 text-center my-5 py-10">
+          Designed and Developed by&nbsp;
+          <Link href="https://sowtech.in/" className="font-bold">
+            SOW TECH🔗
+          </Link>
         </div>
       </div>
     </Footer>
