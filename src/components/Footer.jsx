@@ -7,6 +7,7 @@ import {
   BsGithub,
   BsInstagram,
   BsTwitter,
+  BsWhatsapp,
 } from "react-icons/bs";
 
 const FooterComp = () => {
@@ -27,15 +28,17 @@ const FooterComp = () => {
             <div>
               <Footer.Title title="CALL" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">+91-9683584382</Footer.Link>
-                <Footer.Link href="#">+91-9683584382</Footer.Link>
+                <Footer.Link href="tel:+917904745652">
+                  +91 79047 45652
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title title="EMAIL" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Taxconsultancy@gmail.com</Footer.Link>
-                <Footer.Link href="#">taxservices@gmail.com</Footer.Link>
+                <Footer.Link href="mailto:info@pktaxconsultancy.in">
+                  info@pktaxconsultancy.in
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -52,8 +55,11 @@ const FooterComp = () => {
           <Footer.Copyright href="#" by="PK TAX CONSULTANCY™" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
+            <Footer.Icon
+              href="https://instagram.com/pk_tax_consultancy/"
+              icon={BsInstagram}
+            />
+            <Footer.Icon href="https://wa.me/+917904745652" icon={BsWhatsapp} />
             <Footer.Icon href="#" icon={BsGithub} />
             <Footer.Icon href="#" icon={BsDribbble} />
           </div>
