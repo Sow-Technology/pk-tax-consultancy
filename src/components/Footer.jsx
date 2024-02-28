@@ -74,7 +74,7 @@ const FooterComp = () => {
         </div>
         <div className="w-full bg-blue-400/60 text-center my-5 py-10">
           Designed and Developed by&nbsp;
-          <Link href="https://sowtech.in/" className="font-bold">
+          <Link href="https://sowtech.in/contact" className="font-bold">
             SOW TECH🔗
           </Link>
         </div>

@@ -23,7 +23,6 @@ export default function Page() {
       });
 
       if (response.ok) {
-        console.log("Email sent successfully");
         toast.dismiss();
         toast.success("We'll reach you soon!");
       } else {

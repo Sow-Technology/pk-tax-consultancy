@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-console.log(process.env.FROM_EMAIL_PASSWORD);
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
   port: parseInt(process.env.SMTP_PORT),
@@ -14,7 +13,6 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(req, res) {
   const formData = await req.json();
-  console.log(formData);
   const mailOptions = {
     from: process.env.FROM_EMAIL,
     to: process.env.TO_EMAIL,
@@ -28,12 +26,9 @@ export async function POST(req, res) {
     <!-- Add other fields as needed -->
   `,
   };
-  console.log("before the try block");
 
   try {
-    console.log("entered the try block");
     await transporter.sendMail(mailOptions);
-    console.log("Email sent successfully");
     return NextResponse.json(
       { message: "Email sent successfully" },
       { status: 200 }
