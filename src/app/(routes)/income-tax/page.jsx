@@ -229,6 +229,81 @@ const faq6 = [
       "To claim TDS credit, the deductee must mention TDS details in their income tax returns, taking care to provide correct TDS certificate number and details. Incorrect details can lead to discrepancies in tax credit processing.",
   },
 ];
+const faq7 = [
+  {
+    question: "What is EPF (Employees' Provident Fund) Return Filing?",
+    answer:
+      "EPF Return Filing is the process of submitting the necessary documents and details related to the provident fund contributions of employees. Employers are required to file EPF returns regularly, providing information on employee contributions, employer contributions, and other relevant details as per the guidelines of the Employees' Provident Fund Organization (EPFO).",
+  },
+  {
+    question: "What are the key components included in EPF Return Filing?",
+    answer:
+      "EPF Return Filing includes details such as the number of employees, their provident fund contributions, the employer's contributions, and other related information. It is a comprehensive submission that reflects the financial transactions and compliance of the employer with EPF regulations.",
+  },
+  {
+    question: "How often is EPF Return Filing required?",
+    answer:
+      "EPF Return Filing is typically required on a monthly basis. Employers need to file returns within 15 days of the close of every month. Timely and accurate filing ensures compliance with EPF regulations and facilitates the smooth operation of provident fund accounts for employees.",
+  },
+  {
+    question: "What is ESI (Employee State Insurance) Return Filing?",
+    answer:
+      "ESI Return Filing involves the submission of relevant details and documents regarding the contributions made towards the Employee State Insurance (ESI) scheme. Employers need to file ESI returns regularly, providing information on employee contributions, employer contributions, and other related particulars as per the rules of the Employees' State Insurance Corporation (ESIC).",
+  },
+  {
+    question: "What information is included in ESI Return Filing?",
+    answer:
+      "ESI Return Filing includes details such as the number of employees, their salary details, the employee's contribution to the ESI scheme, the employer's contribution, and other relevant information. It is a crucial submission that reflects the financial transactions and adherence to ESI regulations by the employer.",
+  },
+  {
+    question: "How frequently is ESI Return Filing required?",
+    answer:
+      "ESI Return Filing is generally required on a half-yearly basis. Employers need to file returns within 42 days of the end of the contribution period (April to September and October to March). Timely and accurate filing ensures compliance with ESI regulations and facilitates the provision of medical and cash benefits to employees.",
+  },
+  {
+    question:
+      "What are the consequences of non-compliance with EPF and ESI Return Filing?",
+    answer:
+      "Non-compliance with EPF and ESI Return Filing may lead to penalties, fines, and legal consequences. It can also impact the eligibility of employees to avail benefits under these schemes. It is essential for employers to adhere to the filing timelines and ensure accuracy in the information provided to avoid any adverse consequences.",
+  },
+  {
+    question: "How can employers initiate EPF and ESI Return Filing?",
+    answer:
+      "Employers can initiate EPF and ESI Return Filing through the respective online portals provided by the EPFO and ESIC. The process involves the submission of accurate details, verification of data, and compliance with the guidelines specified by the regulatory authorities. Employers may also seek the assistance of professionals to ensure accurate and timely filing.",
+  },
+];
+const faq8 = [
+  {
+    question: "What is PF Withdrawal?",
+    answer:
+      "PF Withdrawal refers to the process by which an employee can claim and receive the accumulated funds in their Provident Fund (PF) account. Employees contribute a portion of their salary towards the PF during their employment, and they have the option to withdraw these funds when certain conditions are met.",
+  },
+  {
+    question: "When can an employee opt for PF Withdrawal?",
+    answer:
+      "An employee can opt for PF Withdrawal under various circumstances such as resignation, retirement, termination, or being unemployed for a continuous period of two months. The withdrawal is subject to specific conditions, and the eligibility criteria may vary based on the reason for withdrawal.",
+  },
+  {
+    question: "Is PF Withdrawal possible while still employed?",
+    answer:
+      "Generally, PF Withdrawal is not allowed while an employee is still employed. However, partial withdrawals or advances may be permitted for specific purposes such as medical treatment, home loan repayment, or education. Complete withdrawal is typically allowed only after the cessation of employment.",
+  },
+  {
+    question: "How is PF Withdrawal initiated?",
+    answer:
+      "PF Withdrawal is initiated by submitting a duly filled withdrawal application to the concerned Employees' Provident Fund Organization (EPFO) office. The application form may vary based on the reason for withdrawal. The process can be completed online through the EPFO portal or manually through the submission of physical forms.",
+  },
+  {
+    question: "What documents are required for PF Withdrawal?",
+    answer:
+      "The documents required for PF Withdrawal include a filled withdrawal application form, a canceled cheque or bank account details, and the employee's KYC documents. The KYC documents may include Aadhar card, PAN card, bank passbook, and a photograph of the employee. Additional documents may be required based on the reason for withdrawal.",
+  },
+  {
+    question: "Is there any tax implication on PF Withdrawal?",
+    answer:
+      "The tax implications on PF Withdrawal depend on the duration of continuous service. If an employee has completed five years of continuous service, the PF withdrawal amount is not taxable. However, if the withdrawal occurs before completing five years, it may be subject to tax deductions as per the Income Tax Act.",
+  },
+];
 
 const page = () => {
   return (
@@ -313,12 +388,44 @@ const page = () => {
           ))}
         </div>
       </div>
-      <div className="my-20">
+      <div className="my-20" id="tds">
         <h1 className="text-center w-full font-bold text-5xl my-10">
           TDS / TCS Return Filing{" "}
         </h1>
         <div className="flex flex-wrap gap-10 ">
           {faq6.map((item, index) => (
+            <div
+              key={index}
+              className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"
+            >
+              <h2 className="font-bold">{item.question}</h2>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="my-20" id="isi">
+        <h1 className="text-center w-full font-bold text-5xl my-10">
+          EPF & ESI Return Filing{" "}
+        </h1>
+        <div className="flex flex-wrap gap-10 ">
+          {faq7.map((item, index) => (
+            <div
+              key={index}
+              className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"
+            >
+              <h2 className="font-bold">{item.question}</h2>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="my-20" id="pf">
+        <h1 className="text-center w-full font-bold text-5xl my-10">
+          PF Withdrawal
+        </h1>
+        <div className="flex flex-wrap gap-10 ">
+          {faq8.map((item, index) => (
             <div
               key={index}
               className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"

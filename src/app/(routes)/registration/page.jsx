@@ -145,6 +145,156 @@ const faq4 = [
       "EPF provides benefits such as a sovereign-backed, tax-free interest on contributions, EEE (exempt, exempt, exempt) status, and high returns with safety and assurance.",
   },
 ];
+const faq5 = [
+  {
+    question: "What is Udyam Registration?",
+    answer:
+      "Udyam Registration is a process for registering Micro, Small, and Medium Enterprises (MSMEs) in India. It provides recognition and facilitates the growth and development of businesses falling under the MSME category.",
+  },
+  {
+    question: "Who is eligible for Udyam Registration?",
+    answer:
+      "All entities falling under the Micro, Small, and Medium Enterprises (MSME) category, including manufacturing and service enterprises, can apply for Udyam Registration.",
+  },
+  {
+    question: "What are the benefits of Udyam Registration?",
+    answer:
+      "Udyam Registration offers various benefits, including easy access to credit, subsidies, exemptions under Direct Tax Laws, protection against delayed payments, and preference in government procurement.",
+  },
+  {
+    question: "What documents are required for Udyam Registration?",
+    answer:
+      "Documents required include Aadhar card of the applicant, PAN card, business address proof, and information about the business activities and investment in plant and machinery or equipment.",
+  },
+  {
+    question: "Is Udyam Registration mandatory?",
+    answer:
+      "While Udyam Registration is optional, it is advisable for MSMEs to register as it provides them with numerous benefits and facilitates their participation in various government schemes and initiatives.",
+  },
+  {
+    question: "How can one apply for Udyam Registration?",
+    answer:
+      "The application for Udyam Registration can be submitted online through the official Udyam Registration portal. The process is straightforward and requires the submission of necessary details and documents.",
+  },
+  {
+    question: "What is the validity period of Udyam Registration?",
+    answer:
+      "Udyam Registration is valid for a lifetime. Once registered, an entity retains its MSME status, and there is no need for renewal. However, updates or modifications can be made as per changes in business details.",
+  },
+];
+const faq6 = [
+  {
+    question: "What is Import and Export Code (IEC) Registration?",
+    answer:
+      "IEC Registration is a unique 10-digit code issued by the Directorate General of Foreign Trade (DGFT) to individuals or businesses engaged in international trade. It is mandatory for carrying out import/export activities.",
+  },
+  {
+    question: "Who needs to obtain IEC Registration?",
+    answer:
+      "Any individual or entity involved in importing or exporting goods and services from India requires IEC Registration. It is applicable for both businesses and individuals, including manufacturers, traders, and service providers.",
+  },
+  {
+    question: "What are the benefits of having IEC Registration?",
+    answer:
+      "IEC Registration is essential for customs clearance, opening a foreign bank account, participating in international trade events, and availing various benefits provided by the government, such as export incentives and subsidies.",
+  },
+  {
+    question: "Is IEC Registration mandatory for export of services?",
+    answer:
+      "IEC Registration is mandatory only for those providing services for which specific conditions or exemptions are not applicable. For certain services, IEC may not be necessary, and the exporter can avail services without obtaining it.",
+  },
+  {
+    question: "How can one apply for IEC Registration?",
+    answer:
+      "The application for IEC Registration can be submitted online on the DGFT website. The applicant needs to provide necessary details, along with supporting documents, and pay the prescribed fee to obtain the IEC.",
+  },
+  {
+    question: "What documents are required for IEC Registration?",
+    answer:
+      "The documents required for IEC Registration include PAN card, address proof of the business, bank certificate, and a canceled cheque. The specific documents may vary based on the type of entity applying for IEC.",
+  },
+  {
+    question: "Is there any renewal process for IEC Registration?",
+    answer:
+      "IEC Registration does not require renewal. Once obtained, it is valid for a lifetime unless surrendered or canceled. However, any changes in details may require updating the IEC with the DGFT.",
+  },
+];
+const faq7 = [
+  {
+    question: "What is Company Registration?",
+    answer:
+      "Company registration is the legal process of incorporating a business entity as a company, giving it a distinct legal identity. It involves the creation of a separate legal entity that can own assets, incur liabilities, and conduct business operations independently.",
+  },
+  {
+    question: "What are the types of companies that can be registered?",
+    answer:
+      "The common types of companies that can be registered include Private Limited Company, Public Limited Company, One Person Company (OPC), Limited Liability Partnership (LLP), and Section 8 Company. The choice depends on factors like ownership structure, liability, and business objectives.",
+  },
+  {
+    question: "What are the benefits of Company Registration?",
+    answer:
+      "Company registration provides benefits such as limited liability protection to the owners, a separate legal identity, access to funding, ease of transfer of ownership, and increased credibility in the business market. It also enhances the company's ability to enter into contracts and conduct business.",
+  },
+  {
+    question: "How can one register a company?",
+    answer:
+      "Company registration involves submitting the required documents and forms to the regulatory authorities, typically the Registrar of Companies (RoC) in the respective country. The process includes selecting a unique company name, drafting the Memorandum of Association and Articles of Association, and obtaining the Certificate of Incorporation.",
+  },
+  {
+    question: "What documents are needed for Company Registration?",
+    answer:
+      "The documents required for company registration may include identity and address proof of directors, Memorandum of Association (MOA), Articles of Association (AOA), address proof of the registered office, and payment of registration fees. The specific documents may vary based on the type of company and local regulations.",
+  },
+  {
+    question: "Are there any post-registration compliances for companies?",
+    answer:
+      "Yes, after company registration, there are ongoing compliances such as filing annual returns, conducting board meetings, and complying with tax regulations. The extent of compliance varies based on the type and size of the company and the applicable laws of the jurisdiction.",
+  },
+  {
+    question: "Can a registered company be closed or deregistered?",
+    answer:
+      "Yes, a registered company can be closed through processes like voluntary dissolution, striking off, or liquidation. The specific procedure depends on the legal requirements of the jurisdiction and the circumstances leading to the closure of the company.",
+  },
+];
+const faq8 = [
+  {
+    question: "What is a Labour License?",
+    answer:
+      "A Labour License, also known as Labor License or Factory License, is a legal document issued by the appropriate government authority that grants permission to a business or factory to operate and engage workers. It ensures that the employer complies with labor laws and provides a safe working environment for employees.",
+  },
+  {
+    question: "Who needs to obtain a Labour License?",
+    answer:
+      "Businesses and factories that employ a certain number of workers are required to obtain a Labour License. The threshold for the number of employees varies by jurisdiction, and it is essential for employers to check and comply with the specific regulations applicable to their industry and location.",
+  },
+  {
+    question: "What are the key requirements for obtaining a Labour License?",
+    answer:
+      "The key requirements for obtaining a Labour License may include submitting the application form, providing details about the business, such as the number of employees and nature of work, ensuring compliance with safety and health standards, and payment of the prescribed fees. The specific requirements vary by jurisdiction.",
+  },
+  {
+    question: "How does a Labour License benefit employers and workers?",
+    answer:
+      "For employers, a Labour License ensures legal compliance, avoids penalties, and enhances the credibility of the business. For workers, it signifies that the employer adheres to labor laws, provides a safe working environment, and offers essential benefits and protections, contributing to their overall well-being.",
+  },
+  {
+    question:
+      "Is the Labour License a one-time requirement, or does it need periodic renewal?",
+    answer:
+      "The requirement for periodic renewal of the Labour License depends on the regulations of the respective jurisdiction. In many cases, employers need to renew the license periodically to ensure that they continue to meet the necessary standards and comply with any updates or changes in labor laws.",
+  },
+  {
+    question:
+      "What are the consequences of operating without a Labour License?",
+    answer:
+      "Operating without a Labour License can lead to legal consequences, including fines, penalties, and potential closure of the business. It also jeopardizes the well-being and rights of workers, as the absence of a Labor License indicates non-compliance with labor laws and standards.",
+  },
+  {
+    question: "How can one apply for a Labour License?",
+    answer:
+      "To apply for a Labour License, the employer typically needs to submit the required documents and application forms to the designated labor department or authority in their jurisdiction. The application process may involve inspections to verify compliance with safety and labor standards.",
+  },
+];
 
 const page = () => {
   return (
@@ -181,7 +331,7 @@ const page = () => {
           ))}
         </div>
       </div>
-      <div className="my-20">
+      <div className="my-20" id="esi">
         <h1 className="text-center w-full font-bold text-5xl my-10">
           ESI Registration{" "}
         </h1>
@@ -203,6 +353,70 @@ const page = () => {
         </h1>
         <div className="flex flex-wrap gap-10 ">
           {faq4.map((item, index) => (
+            <div
+              key={index}
+              className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"
+            >
+              <h2 className="font-bold">{item.question}</h2>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="my-20" id="udyam">
+        <h1 className="text-center w-full font-bold text-5xl my-10">
+          Udyam Registration (MSME)
+        </h1>
+        <div className="flex flex-wrap gap-10 ">
+          {faq5.map((item, index) => (
+            <div
+              key={index}
+              className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"
+            >
+              <h2 className="font-bold">{item.question}</h2>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="my-20" id="iec">
+        <h1 className="text-center w-full font-bold text-5xl my-10">
+          Import and Export Code Registration (IEC)
+        </h1>
+        <div className="flex flex-wrap gap-10 ">
+          {faq6.map((item, index) => (
+            <div
+              key={index}
+              className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"
+            >
+              <h2 className="font-bold">{item.question}</h2>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="my-20" id="company">
+        <h1 className="text-center w-full font-bold text-5xl my-10">
+          Company Registration
+        </h1>
+        <div className="flex flex-wrap gap-10 ">
+          {faq7.map((item, index) => (
+            <div
+              key={index}
+              className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"
+            >
+              <h2 className="font-bold">{item.question}</h2>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="my-20" id="labour">
+        <h1 className="text-center w-full font-bold text-5xl my-10">
+          Labour License
+        </h1>
+        <div className="flex flex-wrap gap-10 ">
+          {faq8.map((item, index) => (
             <div
               key={index}
               className="p-10 rounded-md basis-[300px] w-[300px] flex-grow bg-gray-200 flex gap-5 flex-col shadow-xl backdrop-blur-3xl"

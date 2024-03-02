@@ -92,6 +92,9 @@ export default function Page() {
         {...register("Enquiry", { required: true })}
         className="p-2 mb-4 border rounded-md"
       >
+        <option disabled selected className="text-gray-400">
+          Select
+        </option>
         <option disabled className="text-center font-bold">
           Registration
         </option>
@@ -121,16 +124,16 @@ export default function Page() {
         <option disabled className="text-center font-bold">
           Insurance
         </option>
-        <option value=" Life Insurance - LIC Book Keeping">
-          Life Insurance - LIC Book Keeping
-        </option>
+        <option value=" Life Insurance">Life Insurance</option>
         <option disabled className="text-center font-bold">
           Legal Services
         </option>
         <option value="ARBITRATION WORK">ARBITRATION WORK</option>
         <option value="LABOUR DISPUTES">LABOUR DISPUTES</option>
         <option value="FAMILY CONCILIATION">FAMILY CONCILIATION</option>
-        <option value=" Life Insurance - LIC Book Keeping">Others </option>
+        <option disabled className="text-center font-bold">
+          Others
+        </option>
         <option value="  PAN"> PAN</option>
         <option value="  TAN"> TAN</option>
         <option value=" Digital Signature – emudhra partner">
@@ -138,7 +141,7 @@ export default function Page() {
         </option>
 
         <option value="REGISTRATION">REGISTRATION</option>
-        <option value="COURT CASES">COURT CASES</option>
+        <option value="LIC Book Keeping">LIC Book Keeping</option>
       </select>
 
       <label className="mb-2 text-lg font-bold" htmlFor="Message">
