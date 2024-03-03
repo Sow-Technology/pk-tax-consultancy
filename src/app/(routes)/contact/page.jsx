@@ -140,7 +140,6 @@ export default function Page() {
           Digital Signature – emudhra partner
         </option>
 
-        <option value="REGISTRATION">REGISTRATION</option>
         <option value="LIC Book Keeping">LIC Book Keeping</option>
       </select>
 

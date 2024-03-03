@@ -484,7 +484,7 @@ const Navbar = () => {
                 )}
                 onMouseLeave={() => setSubModal3Open(false)}
               >
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -523,7 +523,7 @@ const Navbar = () => {
                 )}
                 onMouseLeave={() => setSubModal4Open(false)}
               >
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -531,7 +531,7 @@ const Navbar = () => {
                     ARBITRATION WORK
                   </motion.li>
                 </Link>
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -539,7 +539,7 @@ const Navbar = () => {
                     LABOUR DISPUTES
                   </motion.li>
                 </Link>
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -578,7 +578,7 @@ const Navbar = () => {
                 )}
                 onMouseLeave={() => setSubModal5Open(false)}
               >
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -586,7 +586,7 @@ const Navbar = () => {
                     PAN
                   </motion.li>
                 </Link>
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -594,7 +594,7 @@ const Navbar = () => {
                     TAN
                   </motion.li>
                 </Link>
-                <Link href="#">
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
@@ -602,15 +602,8 @@ const Navbar = () => {
                     Digital Signature – emudhra partner
                   </motion.li>
                 </Link>
-                <Link href="#">
-                  <motion.li
-                    variants={itemVariants}
-                    className="flex gap-10 justify-between cursor-pointer hover:scale-105"
-                  >
-                    REGISTRATION{" "}
-                  </motion.li>
-                </Link>
-                <Link href="#">
+
+                <Link href="/gst">
                   <motion.li
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
