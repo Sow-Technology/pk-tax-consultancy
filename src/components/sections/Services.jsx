@@ -32,8 +32,8 @@ const ServiceItems = [
   },
   {
     imgUrl: "/s5.webp",
-    title: "APEDA Registration",
-    url: "/registration/#apeda",
+    title: "Import and Export Code Registration (IEC)",
+    url: "/registration/#iec",
     desc: "nunc sed velit dignissim sodales ut eu sem integer vitae",
   },
   {

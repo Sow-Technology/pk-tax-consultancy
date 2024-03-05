@@ -2,6 +2,7 @@
 
 import { Footer } from "flowbite-react";
 import Link from "next/link";
+import Script from "next/script";
 import {
   BsDribbble,
   BsFacebook,
@@ -10,30 +11,31 @@ import {
   BsTwitterX,
   BsWhatsapp,
 } from "react-icons/bs";
+import Gmap from "./Gmap";
 
 const FooterComp = () => {
   return (
     <Footer container id="contact">
       <div className="w-full my-4">
-        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
+        <div className="grid w-full  sm:flex sm:justify-between lg:flex lg:grid-cols-1 overflow-clip">
           <div>
             <Footer.Brand
               href="/"
-              src="/logo.webp"
+              src="/logo.png"
               alt=" Logo"
               name=""
-              className="h-[100px] w-[100px] scale-[200%] ml-10"
+              className="h-[150px] w-[150px] scale-[300%] ml-40"
             />
           </div>
-          <div className="grid grid-cols-1 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+          <div className="grid grid-cols-1 min-w-[80%] gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
               <Footer.Title title="CALL" />
               <Footer.LinkGroup col>
                 <Footer.Link href="tel:+917904745652">
                   +91 79047 45652
                 </Footer.Link>
-                <Footer.Link href="tel:+917092759515">
-                  +91 70927 59515
+                <Footer.Link href="tel:+91044 4790 2783">
+                  +91 044 4790 2783
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -45,12 +47,9 @@ const FooterComp = () => {
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div>
-              <Footer.Title title="MESSAGE" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
-              </Footer.LinkGroup>
+            <div className="lg:-ml-20">
+              <Footer.Title title="REACH US" />
+              <Gmap />
             </div>
           </div>
         </div>

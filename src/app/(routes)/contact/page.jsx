@@ -111,6 +111,7 @@ export default function Page() {
         </option>
         <option value=" Company Registration"> Company Registration</option>
         <option value=" Labour License"> Labour License</option>
+        <option value="Trade Mark Registration">Trade Mark Registration</option>
         <option disabled className="text-center font-bold">
           Compliance
         </option>
@@ -118,29 +119,27 @@ export default function Page() {
         <option value=" EPF & ESI Return Filing">
           EPF & ESI Return Filing
         </option>
-        <option value=" Income Tax Filing"> Income Tax Filing</option>
-        <option value=" TDS Return Filing"> TDS Return Filing</option>
-        <option value=" PF Withdrawal"> PF Withdrawal</option>
+        <option value="Income Tax Filing">Income Tax Filing</option>
+        <option value="TDS Return Filing">TDS Return Filing</option>
+        <option value="Financial Projection">Financial Projection</option>
+        <option value="PF Claims">PF Claims</option>
         <option disabled className="text-center font-bold">
           Insurance
         </option>
-        <option value=" Life Insurance">Life Insurance</option>
+        <option value="Life Insurance - LIC">Life Insurance - LIC</option>
         <option disabled className="text-center font-bold">
           Legal Services
         </option>
-        <option value="ARBITRATION WORK">ARBITRATION WORK</option>
+        <option value="Arbitration Work">Arbitration Work</option>
         <option value="LABOUR DISPUTES">LABOUR DISPUTES</option>
         <option value="FAMILY CONCILIATION">FAMILY CONCILIATION</option>
         <option disabled className="text-center font-bold">
           Others
         </option>
-        <option value="  PAN"> PAN</option>
-        <option value="  TAN"> TAN</option>
-        <option value=" Digital Signature – emudhra partner">
-          Digital Signature – emudhra partner
-        </option>
-
-        <option value="LIC Book Keeping">LIC Book Keeping</option>
+        <option value="PAN"> PAN / TAN</option>
+        <option value="Passport">Passport</option>
+        <option value=" Digital Signature">Digital Signature</option>
+        <option value="Book Keeping">Book Keeping</option>
       </select>
 
       <label className="mb-2 text-lg font-bold" htmlFor="Message">

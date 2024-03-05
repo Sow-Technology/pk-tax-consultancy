@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="flex flex-row items-center justify-between my-5 px-5 relative">
             <Link href="/">
               <div>
-                <Image src="/logo.webp" alt="" width={100} height={100} />
+                <Image src="/logo.png" alt="" width={175} height={175} />
               </div>
             </Link>
             <nav className="flex flex-col items-center gap-5 mt-3">
@@ -382,6 +382,14 @@ const Navbar = () => {
                     Labour License{" "}
                   </motion.li>
                 </Link>
+                <Link href="/registration/#gst">
+                  <motion.li
+                    variants={itemVariants}
+                    className="flex gap-10 justify-between cursor-pointer hover:scale-105"
+                  >
+                    Trade Mark Registration
+                  </motion.li>
+                </Link>
               </motion.ul>
             )}
             {subModal2Open && (
@@ -450,7 +458,15 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    PF Withdrawal
+                    Financial Projection
+                  </motion.li>
+                </Link>{" "}
+                <Link href="/income-tax/#pf">
+                  <motion.li
+                    variants={itemVariants}
+                    className="flex gap-10 justify-between cursor-pointer hover:scale-105"
+                  >
+                    PF Claims
                   </motion.li>
                 </Link>
               </motion.ul>
@@ -489,7 +505,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    Life Insurance
+                    Life Insurance - LIC
                   </motion.li>
                 </Link>
               </motion.ul>
@@ -528,7 +544,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    ARBITRATION WORK
+                    Arbitration Work
                   </motion.li>
                 </Link>
                 <Link href="/gst">
@@ -536,7 +552,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    LABOUR DISPUTES
+                    Labour Disputes
                   </motion.li>
                 </Link>
                 <Link href="/gst">
@@ -544,7 +560,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    FAMILY CONCILIATION
+                    Family Conciliation
                   </motion.li>
                 </Link>
               </motion.ul>
@@ -583,7 +599,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    PAN
+                    PAN / TAN{" "}
                   </motion.li>
                 </Link>
                 <Link href="/gst">
@@ -591,7 +607,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    TAN
+                    Passport
                   </motion.li>
                 </Link>
                 <Link href="/gst">
@@ -599,7 +615,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    Digital Signature – emudhra partner
+                    Digital Signature
                   </motion.li>
                 </Link>
 
@@ -608,7 +624,7 @@ const Navbar = () => {
                     variants={itemVariants}
                     className="flex gap-10 justify-between cursor-pointer hover:scale-105"
                   >
-                    LIC Book Keeping{" "}
+                    Book Keeping
                   </motion.li>
                 </Link>
               </motion.ul>
